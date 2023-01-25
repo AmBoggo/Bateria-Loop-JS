@@ -1,3 +1,5 @@
+
+// //MODO 1 - FOR(LOOP)
 // const botao = document.querySelectorAll('.tecla');
 // const som = document.querySelectorAll('audio');
 
@@ -10,7 +12,7 @@
     
 // }
 
-
+//MODO 2 - WHILE (necessário outra let dentro do while)
 let i = 0;
 const botao = document.querySelectorAll('.tecla');
 const som = document.querySelectorAll('audio');
@@ -28,7 +30,7 @@ function tocaSom(i) {
 }
 
 
-// // MODO 2********************
+// // MODO 3 FOREACH
 // const buttons = document.querySelectorAll('.tecla');
 // const sounds = document.querySelectorAll('audio');
 
